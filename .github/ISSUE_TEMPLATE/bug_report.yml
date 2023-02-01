@@ -14,7 +14,6 @@ body:
   attributes:
     label: Description
     description: Please provide a detailed description of the bug?
-    placeholder: ""
 
 
  
