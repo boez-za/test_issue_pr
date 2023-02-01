@@ -1,5 +1,5 @@
 # Define Issue Template Settings
-blank_issues_enabled: false # Force Template Usage
+blank_issues_enabled: true # Force Template Usage
 contact_links:
   # Set External Links to show on issue creation
   # TODO: Update github repo-URL 
