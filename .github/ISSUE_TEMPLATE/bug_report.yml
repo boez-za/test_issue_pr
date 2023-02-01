@@ -1,0 +1,20 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug Report]: "
+labels: ["bug", "awaiting triage"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you so much for your interest in contributing to this project! 💖
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description
+      description: Please provide a detailed description of the bug?
+      placeholder: ""
+
+
+ 

@@ -1,0 +1,16 @@
+name: Feature Suggestion
+description: Suggest a new feature for Contribution
+title: "[Feature]: "
+labels: ["feature", "suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you so much for your interest in contributing to this project! 💖
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Discription
+      description: Please provide details about the feature you like to see implemented? 
+      placeholder: ""
+    
