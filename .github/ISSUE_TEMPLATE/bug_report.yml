@@ -21,7 +21,7 @@ body:
       label: Contribution Checklist
       description: Checklist to complete before submitting a bug Report.
       options:
-        - label: I have checked the [Open Issues](https://github.developer.allianz.io/if06-sdr/os-project-template/issues) and my Bug has not yet been reported.
+        - label: I have checked the [Open Issues](/issues) and my Bug has not yet been reported.
           required: true
         - label: This bug is not a [Security Vulnerability or Exploit](https://github.developer.allianz.io/if06-sdr/os-project-template/blob/main/SECURITY.md).
           required: true
