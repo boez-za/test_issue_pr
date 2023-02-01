@@ -1,16 +1,44 @@
+## Feature Suggestion Issue Template
 name: Feature Suggestion
 description: Suggest a new feature for Contribution
 title: "[Feature]: "
 labels: ["feature", "suggestion"]
+# TODO: Update Assignees for Features 
+# assignees:
+#   - 
+
 body:
+  ## Introduction 
   - type: markdown
     attributes:
       value: |
         Thank you so much for your interest in contributing to this project! 💖
+
+  ## Feature Description
   - type: textarea
     id: feature-description
     attributes:
       label: Feature Discription
       description: Please provide details about the feature you like to see implemented? 
+    
+
+  ## Use Case
+  # - type: textarea
+  #   id: feature-use-case
+  #   attributes:
+  #     label: Use Case
+  #     description: Please decribe the features primary usage
+  #   validations:
+  #     required: false  
+  
+  ## Suggested Implementation 
+  # - type: textarea
+  #   id: feature-implementation-idea
+  #   attributes:
+  #     label: Implementation
+  #     description: Please provide in structions on how to implement this feature? (PR Link, Resolution Steps, etc) 
+  #     placeholder: ""
+  #   validations:
+  #     required: false
 
     
