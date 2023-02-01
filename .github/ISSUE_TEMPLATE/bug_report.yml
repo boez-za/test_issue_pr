@@ -1,19 +1,125 @@
+## Bug Report Issue Template
 name: Bug Report
 description: File a bug report
 title: "[Bug Report]: "
 labels: ["bug", "awaiting triage"]
-assignees:
-  - octocat
+# TODO: Update Assignee for Bugs
+# assignees:
+#   - 
 body:
-- type: markdown
-  attributes:
-    value: |
-      Thank you so much for your interest in contributing to this project! 💖
-- type: textarea
-  id: bug-description
-  attributes:
-    label: Description
-    description: Please provide a detailed description of the bug?
+  ## Introduction 
+  - type: markdown
+    attributes:
+      value: |
+        Thank you so much for your interest in contributing to this project! 
+  
+  ## Contributors Checklist
+  # TODO: Update github repo-URL 
+  - type: checkboxes
+    id: bug-contributors-checklist
+    attributes:
+      label: Contribution Checklist
+      description: Checklist to complete before submitting a bug Report.
+      options:
+        - label: I have checked the [Open Issues](https://github.developer.allianz.io/if06-sdr/os-project-template/issues) and my Bug has not yet been reported.
+          required: true
+        - label: This bug is not a [Security Vulnerability or Exploit](https://github.developer.allianz.io/if06-sdr/os-project-template/blob/main/SECURITY.md).
+          required: true
+  
+
+
+  ## Bug Description 
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description
+      description: Please provide a detailed description of the bug?
+    validations:
+      required: true
+
+  # Examples
+  
+  # ## Version
+  # - type: dropdown
+  #   id: bug-version
+  #   attributes:
+  #     label: Software Version
+  #     description: Which version of the software?
+  #     options:
+  #       - 0.0.1
+  #   validations:
+  #     required: false
+
+  # ## Error Logs
+  # - type: textarea
+  #   id: bug-logs
+  #   attributes:
+  #     label: Error logs
+  #     description: Please provide any relevant logs / Output data
+  #     render: shell
+  #   validations:
+  #     required: true  
+
+  # ## Reproduction Steps
+  # - type: textarea
+  #   id: bug-reproduction-steps
+  #   attributes:
+  #     label: Bug Reproduction
+  #     description: Please provide detailed instructions on how to reproduce the bug?
+  #     placeholder: ""
+  #   validations:
+  #     required: false
+
+  # ## Expected Behaviour
+  # - type: textarea
+  #   id: bug-expected-behaviour
+  #   attributes:
+  #     label: Expected Behaviour
+  #     description: Please decribe what you expected to happen?
+  #     placeholder: ""
+  #   validations:
+  #     required: false
+
+  # ## Current Behaviour
+  # - type: textarea
+  #   id: bug-current-behaviour
+  #   attributes:
+  #     label: Actual Behaviour
+  #     description: Please describe what actually happened? 
+  #     placeholder: ""
+  #   validations:
+  #     required: false
+
+  # ## Possible Solution
+  # - type: textarea
+  #   id: bug-solution-suggestion
+  #   attributes:
+  #     label: Solution
+  #     description: If possible, please provide a resolution to the bug? (PR Link, Resolution Steps, etc) 
+  #     placeholder: ""
+  #   validations:
+  #     required: false
+
+  # ## Context 
+  # - type: textarea
+  #   id: bug-context
+  #   attributes:
+  #     label: Context
+  #     description: Please provide more information about what you were attempting to do when you encounter the bug?
+  #     placeholder: ""
+  #   validations:
+  #     required: false
+
+  # ## Environment 
+  # - type: textarea
+  #   id: bug-environment
+  #   attributes:
+  #     label: Operating Sysmtem / Environment 
+  #     description: Please provide a detailed list of t
+  #     placeholder: ""
+  #   validations:
+  #     required: false
+
 
 
  
