@@ -4,7 +4,7 @@ contact_links:
   # Set External Links to show on issue creation
   # TODO: Update github repo-URL 
   - name: Contribution Guidelines
-    url: /issues
+    url: https://github.developer.allianz.io/if06-sdr/os-project-template/blob/main/Contributing.md
     about: Please review our Contribution guidelines befor submitting an Issue
   - name: Code of Conduct
     url: https://github.developer.allianz.io/if06-sdr/os-project-template/blob/main/CODE_OF_CONDUCT.md
