@@ -12,5 +12,5 @@ body:
     attributes:
       label: Feature Discription
       description: Please provide details about the feature you like to see implemented? 
-      placeholder: ""
+
     
