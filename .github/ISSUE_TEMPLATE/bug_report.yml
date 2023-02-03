@@ -1,50 +1,53 @@
 ## Bug Report Issue Template
-name: Report a bug
+name: Report a Bug
 description: Submit an issue or bug with the project
 title: "[Bug Report]: "
 labels: ["bug", "triage"]
-# TODO: Update Assignee for Bugs
-# assignees:
-#   - 
 body:
-  ## Introduction 
-  - type: markdown
-    attributes:
-      value: |
-        Thank you so much for your interest in contributing to this project! 💖
-  
-  ## Contributors Checklist
-  # TODO: Update github repo-URL 
-  # Supports Relative Pathing [tested] 
-  - type: checkboxes
-    id: bug-contributors-checklist
-    attributes:
-      label: Contribution Checklist
-      description: Checklist to complete before submitting a bug Report.
-      options:
-        - label: I have checked the [Open Issues](/issues) and this Bug has not been reported.
-          required: true
-        - label: I confirm this bug is not a [Security Vulnerability or Exploit](/SECURITY.md).
-          required: true
-  
+
+## Introduction 
+- type: markdown
+  attributes:
+    value: |
+      Thank you so much for your interest in contributing to this project! 💖
+
   ## Bug Description 
-  - type: textarea
+ - type: textarea
     id: bug-description
     attributes:
       label: Description
-      description: Please provide a detailed description of the bug? **HINT:** You can paste https://gist.github.com links for larger files
+      description: |
+        Briefly describe the problem you are having.
+
+        Include both the current behavior (what you are seeing) as well as what you expected to happen.
     validations:
       required: true
+          
 
-  # Below you can find more examples that you might find helpful, please remove if not needed.
-  # Examples / Suggestions
-  # TODO: Remove unused 
+  #
+  # Examples - TODO Remove if not needed
+  #
+  #   - type: textarea
+  #  id: bug-steps
+  #  attributes:
+  #    label: Steps To Reproduce
+  #    description: Steps to reproduce the behavior.
+  #    placeholder: |
+  #      1. In this environment...
+  #      2. With this config...
+  #      3. Run '...'
+  #      4. See error...
+  #  validations:
+   #   required: false
+  #    
+  #
+  #
   # ## Version
   # - type: input
   #   id: bug-version
   #   attributes:
   #     label: Software Version
-  #     description: Which version of the software?
+  #     description: Which version of the software was used?
   #   validations:
   #     required: false
 
@@ -53,21 +56,11 @@ body:
   #   id: bug-logs
   #   attributes:
   #     label: Error logs
-  #     description: Please provide any relevant logs / Output data
+  #     description: Please provide any relevant logs / Output data. **HINT:** You can paste https://gist.github.com links for larger files
   #     render: shell
   #   validations:
   #     required: true  
-
-  # ## Reproduction Steps
-  # - type: textarea
-  #   id: bug-reproduction-steps
-  #   attributes:
-  #     label: Bug Reproduction
-  #     description: Please provide detailed instructions on how to reproduce the bug?
-  #     placeholder: ""
-  #   validations:
-  #     required: false
-
+  
   # ## Expected Behaviour
   # - type: textarea
   #   id: bug-expected-behaviour
@@ -78,32 +71,12 @@ body:
   #   validations:
   #     required: false
 
-  # ## Current Behaviour
-  # - type: textarea
-  #   id: bug-current-behaviour
-  #   attributes:
-  #     label: Actual Behaviour
-  #     description: Please describe what actually happened? 
-  #     placeholder: ""
-  #   validations:
-  #     required: false
-
   # ## Possible Solution
   # - type: textarea
   #   id: bug-solution-suggestion
   #   attributes:
   #     label: Solution
   #     description: If possible, please provide a resolution to the bug? (PR Link, Resolution Steps, etc) 
-  #     placeholder: ""
-  #   validations:
-  #     required: false
-
-  # ## Context 
-  # - type: textarea
-  #   id: bug-context
-  #   attributes:
-  #     label: Context
-  #     description: Please provide more information about what you were attempting to do when you encounter the bug?
   #     placeholder: ""
   #   validations:
   #     required: false
