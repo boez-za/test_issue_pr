@@ -1,7 +1,7 @@
 ## Bug Report Issue Template
 name: Report a Bug
 description: Submit an issue or bug with the project
-title: "[Bug Report]: "
+title: "[Bug]: <title>"
 labels: ["bug", "triage"]
 body:
 
