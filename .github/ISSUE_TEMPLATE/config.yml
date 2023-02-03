@@ -1,8 +1,8 @@
 blank_issues_enabled: true # Force Template Usage
 contact_links:
-  - name: Questions & Awnsers
+  - name: Ask Questions in the Support Forum
     #TODO update link
     url: https://github.com/cheld/test_issue_pr/discussions/categories/q-a
-    about: Please open support questions in our forum
+    about: Questions and Answers on Github Discussions
 
   
