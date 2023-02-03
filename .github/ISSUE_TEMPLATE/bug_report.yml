@@ -42,24 +42,24 @@ body:
   #   validations:
   #     required: false 
   
-   ## Version
-   - type: input
-     id: bug-version
-     attributes:
-       label: Software Version
-       description: Which version of the software was used?
-     validations:
-       required: false
+  ## Version
+  - type: input
+    id: bug-version
+    attributes:
+      label: Software Version
+      description: Which version of the software was used?
+    validations:
+      required: false
   
-   ## Error Logs
-   - type: textarea
-     id: bug-logs
-     attributes:
-       label: Error logs
-       description: Please provide any relevant logs / Output data. **HINT:** You can paste https://gist.github.com links for larger files
-       render: shell
-     validations:
-       required: true  
+  ## Error Logs
+  - type: textarea
+    id: bug-logs
+    attributes:
+      label: Error logs
+      description: Please provide any relevant logs / Output data. **HINT:** You can paste https://gist.github.com links for larger files
+      render: shell
+    validations:
+      required: true  
   
   # ## Expected Behaviour
   # - type: textarea
