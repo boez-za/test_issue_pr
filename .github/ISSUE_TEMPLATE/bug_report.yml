@@ -68,7 +68,6 @@ body:
     attributes:
       label: Solution
       description: If possible, please provide a resolution to the bug? (PR Link, Resolution Steps, etc) 
-      placeholder: "test"
     validations:
       required: false
 
