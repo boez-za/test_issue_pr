@@ -5,14 +5,14 @@ title: "[Bug Report]: "
 labels: ["bug", "triage"]
 body:
 
-## Introduction 
-- type: markdown
-  attributes:
-    value: |
-      Thank you so much for your interest in contributing to this project! 💖
-
+  ## Introduction 
+  - type: markdown
+    attributes:
+      value: |
+        Thank you so much for your interest in contributing to this project! 💖
+ 
   ## Bug Description 
- - type: textarea
+  - type: textarea
     id: bug-description
     attributes:
       label: Description
@@ -22,7 +22,7 @@ body:
         Include both the current behavior (what you are seeing) as well as what you expected to happen.
     validations:
       required: true
-          
+                 
 
   #
   # Examples - TODO Remove if not needed
