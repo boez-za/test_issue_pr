@@ -23,25 +23,25 @@ body:
     validations:
       required: true
                  
-
-  #
-  # Examples - TODO Remove if not needed
-  #
-  #   - type: textarea
-  #  id: bug-steps
-  #  attributes:
+  #############################################
+  # TODO
+  # Examples - Remove if not needed
+  #############################################
+  
+  # ## Steps to Reproduce
+  # - type: textarea
+  #   id: bug-steps
+  #   attributes:
   #    label: Steps To Reproduce
   #    description: Steps to reproduce the behavior.
   #    placeholder: |
-  #      1. In this environment...
-  #      2. With this config...
-  #      3. Run '...'
-  #      4. See error...
-  #  validations:
-   #   required: false
-  #    
-  #
-  #
+  #      1. Open ...
+  #      3. Select ...
+  #      3. Run ...
+  #      4. See error ...
+  #   validations:
+  #     required: false 
+  
   # ## Version
   # - type: input
   #   id: bug-version
@@ -50,7 +50,7 @@ body:
   #     description: Which version of the software was used?
   #   validations:
   #     required: false
-
+  
   # ## Error Logs
   # - type: textarea
   #   id: bug-logs
