@@ -1,7 +1,7 @@
 ## Bug Report Issue Template
-name: Report a Bug
+name: Report a bug
 description: Submit an issue or bug with the project
-title: "[Bug]: <title>"
+title: "[Bug] <title>"
 labels: ["bug", "triage"]
 body:
 
@@ -18,10 +18,14 @@ body:
       label: Description
       description: |
         Briefly describe the problem you are having.
-
-        Include both the current behavior (what you are seeing) as well as what you expected to happen.
-    validations:
-      required: true
+      placeholder: |
+        Problem:
+        
+        Current Beharior:
+        
+        Expected Behavior:
+       validations:
+         required: true
                  
   #############################################
   # TODO
