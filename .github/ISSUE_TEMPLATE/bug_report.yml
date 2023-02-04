@@ -24,8 +24,8 @@ body:
         Current Beharior:
         
         Expected Behavior:
-      validations:
-         required: true
+     validations:
+       required: true
                  
   #############################################
   # TODO
