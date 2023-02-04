@@ -63,7 +63,8 @@ body:
     validations:
       required: false
       
-    - type: checkboxes
+  ## Component
+  - type: checkboxes
     id: component
     attributes:
       label: Components
@@ -73,7 +74,6 @@ body:
        - label: "Component: CLI"
        - label: "Component: Test" 
    
-
   ## Screenshot
   - type: textarea
     id: bug-screenshot
