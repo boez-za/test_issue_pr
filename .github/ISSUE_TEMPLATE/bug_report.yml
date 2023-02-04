@@ -32,6 +32,7 @@ body:
      label: Steps to reproduce
      description: Steps to reproduce the behavior.
      placeholder: |
+       e.g.
        1. Go to '...'
        2. Click on '....'
        3. Scroll down to '....'
@@ -45,7 +46,7 @@ body:
     attributes:
       label: Version
       description: Which version of the software was used?
-      placeholder: v1.0
+      placeholder: e.g. v1.0
     validations:
       required: false
   
@@ -57,9 +58,9 @@ body:
       description: In which environment did the error occure ?
       multiple: true
       options:
-        - Windows
-        - Linux
-        - Mac
+        - e.g. Windows
+        - e.g. Linux
+        - e.g. Mac
     validations:
       required: false
       
@@ -70,9 +71,9 @@ body:
       label: Components
       description: In which component did the error occure ? (check all that apply)
       options:
-       - label: "Website"
-       - label: "CLI"
-       - label: "Test" 
+       - label: "e.g. Website"
+       - label: "e.g. CLI"
+       - label: "e.g. Test" 
    
   ## Screenshot
   - type: textarea
