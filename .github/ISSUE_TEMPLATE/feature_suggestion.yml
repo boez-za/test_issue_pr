@@ -1,6 +1,6 @@
 ## Feature Suggestion Issue Template
 name: 💡 Suggest a feature
-description: Suggest a new feature for Contribution
+description: Suggest a new feature for contribution
 title: "[Feature]: "
 labels: ["feature", "suggestion"]
 # TODO: Update Assignees for Features 
@@ -12,7 +12,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you so much for your interest in contributing to this project! 💖
+        Thanks for taking the time to fill out this feature request!
 
   ## Feature Description
   - type: textarea
