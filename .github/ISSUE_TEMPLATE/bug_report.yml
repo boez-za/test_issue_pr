@@ -69,9 +69,8 @@ body:
     attributes:
       label: "Screenshots"
       description: If applicable, add screenshots to help explain your problem.
-      value: |
+      placeholder: |
         ![DESCRIPTION](LINK.png)
-      render: bash
     validations:
       required: false
 
@@ -80,7 +79,7 @@ body:
     id: bug-logs
     attributes:
       label: Error logs
-      description: Please provide any relevant logs / Output data. **HINT:** You can paste https://gist.github.com links for larger files
+      description: Please provide any relevant logs / Output data. **HINT:** You can paste large files to https://gist.github.com
       render: shell
     validations:
-      required: true  
+      required: false  
