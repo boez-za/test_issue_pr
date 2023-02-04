@@ -33,7 +33,7 @@ body:
   - type: textarea
     id: bug-steps
     attributes:
-     label: Steps To reproduce
+     label: Steps to reproduce
      description: Steps to reproduce the behavior.
      placeholder: |
        1. Go to '...'
@@ -47,16 +47,16 @@ body:
   - type: input
     id: bug-version
     attributes:
-      label: Software version
+      label: Version
       description: Which version of the software was used?
     validations:
       required: false
   
   ## Environment 
   - type: dropdown
-    id: os
+    id: bug-environment
     attributes:
-      label: "OS"
+      label: "Environment"
       description: In which environment did the error occure ?
       multiple: true
       options:
