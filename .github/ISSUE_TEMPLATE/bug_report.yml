@@ -27,85 +27,63 @@ body:
         
     validations:
       required: false 
-                 
-  #############################################
-  # TODO
-  # Examples - Remove if not needed
-  #############################################
+                
   
-#  ## Steps to Reproduce
-#  - type: textarea
-#    id: bug-steps
-#    attributes:
-#     label: Steps To reproduce
-#     description: Steps to reproduce the behavior.
-#     placeholder: |
-#       1. Go to '...'
-#       2. Click on '....'
-#       3. Scroll down to '....'
-#       4. See error
-#    validations:
-#      required: false 
+  ## Steps to Reproduce
+  - type: textarea
+    id: bug-steps
+    attributes:
+     label: Steps To reproduce
+     description: Steps to reproduce the behavior.
+     placeholder: |
+       1. Go to '...'
+       2. Click on '....'
+       3. Scroll down to '....'
+       4. See error
+    validations:
+      required: false 
   
-#  ## Version
-#  - type: input
-#    id: bug-version
-#    attributes:
-#      label: Software version
-#      description: Which version of the software was used?
-#    validations:
-#      required: false
+  ## Version
+  - type: input
+    id: bug-version
+    attributes:
+      label: Software version
+      description: Which version of the software was used?
+    validations:
+      required: false
   
-#  ## Expected Behaviour
-#  - type: textarea
-#    id: bug-expected-behaviour
-#    attributes:
-#      label: Expected behaviour
-#      description: Please decribe what you expected to happen?
-#    validations:
-#      required: false
-
-#  ## Possible Solution
-#  - type: textarea
-#    id: bug-solution-suggestion
-#    attributes:
-#      label: Solution
-#      description: If possible, please provide a resolution to the bug? (PR Link, Resolution Steps, etc) 
-#    validations:
-#      required: false
-
-#  ## Environment 
-#  - type: dropdown
-#    id: os
-#    attributes:
-#      label: "OS"
-#      description: In which environment did the error occure ?
-#      multiple: true
-#      options:
-#        - Windows
-#        - Linux
-#        - Mac
-#    validations:
-#      required: false
+  ## Environment 
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      description: In which environment did the error occure ?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+    validations:
+      required: false
 
 ## Screenshot
-#  - type: textarea
-#    id: bug-screenshot
-#    attributes:
-#      label: "Screenshots"
-#      description: If applicable, add screenshots to help explain your problem.
-#      value: |
-#        ![DESCRIPTION](LINK.png)
-#      render: bash
-#    validations:
-#      required: false
+  - type: textarea
+    id: bug-screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
 
-# ## Error Logs
-#  - type: textarea
-#    id: bug-logs
-#    attributes:
-#      label: Error logs
-#      description: Please provide any relevant logs / Output data. **HINT:** You can paste https://gist.github.com links for larger files
-#      render: shell
-#   validations:
-#      required: true  
+ ## Error Logs
+  - type: textarea
+    id: bug-logs
+    attributes:
+      label: Error logs
+      description: Please provide any relevant logs / Output data. **HINT:** You can paste https://gist.github.com links for larger files
+      render: shell
+   validations:
+      required: true  
