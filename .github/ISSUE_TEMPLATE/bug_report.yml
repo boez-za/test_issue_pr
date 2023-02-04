@@ -85,5 +85,5 @@ body:
       label: Error logs
       description: Please provide any relevant logs / Output data. **HINT:** You can paste https://gist.github.com links for larger files
       render: shell
-   validations:
+    validations:
       required: true  
