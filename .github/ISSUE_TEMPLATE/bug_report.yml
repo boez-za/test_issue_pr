@@ -18,7 +18,7 @@ body:
       label: Description
       description: |
         Briefly describe the problem you are having.
-     placeholder: |
+    placeholder: |
        1. Go to '...'
        2. Click on '....'
        3. Scroll down to '....'
