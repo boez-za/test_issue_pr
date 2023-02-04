@@ -62,6 +62,17 @@ body:
         - Mac
     validations:
       required: false
+      
+    - type: checkboxes
+    id: component
+    attributes:
+      label: Components
+      description: In which component did the error occure ? (check all that apply)
+      options:
+       - label: "Component: Website"
+       - label: "Component: CLI"
+       - label: "Component: Test" 
+   
 
   ## Screenshot
   - type: textarea
