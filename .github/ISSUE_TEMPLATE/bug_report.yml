@@ -68,7 +68,7 @@ body:
     id: bug-screenshot
     attributes:
       label: "Screenshots"
-      description: If applicable, add screenshots to help explain your problem.
+      description: If applicable, add screenshots to help explain your problem. **HINT:** You can drag and drop pictures to the text area.
       placeholder: |
         ![DESCRIPTION](LINK.png)
     validations:
