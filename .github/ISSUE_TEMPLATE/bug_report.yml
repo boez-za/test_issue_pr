@@ -1,5 +1,5 @@
 ## Bug Report Issue Template
-name: Report a bug
+name: 🐛 Report a bug
 description: Submit an issue or bug with the project
 title: "[Bug] <title>"
 labels: ["bug", "triage"]
