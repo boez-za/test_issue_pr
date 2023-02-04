@@ -32,7 +32,7 @@ body:
 #  - type: textarea
 #    id: bug-steps
 #    attributes:
-#     label: Steps To Reproduce
+#     label: Steps To reproduce
 #     description: Steps to reproduce the behavior.
 #     placeholder: |
 #       1. Go to '...'
@@ -46,17 +46,16 @@ body:
 #  - type: input
 #    id: bug-version
 #    attributes:
-#      label: Software Version
+#      label: Software version
 #      description: Which version of the software was used?
 #    validations:
 #      required: false
-  
   
 #  ## Expected Behaviour
 #  - type: textarea
 #    id: bug-expected-behaviour
 #    attributes:
-#      label: Expected Behaviour
+#      label: Expected behaviour
 #      description: Please decribe what you expected to happen?
 #    validations:
 #      required: false
@@ -71,14 +70,31 @@ body:
 #      required: false
 
 #  ## Environment 
-#  - type: textarea
-#    id: bug-environment
+#  - type: dropdown
+#    id: os
 #    attributes:
-#      label: Operating Sysmtem / Environment 
-#      description: Please provide a detailed list of t
+#      label: "OS"
+#      description: In which environment did the error occure ?
+#      multiple: true
+#      options:
+#        - Windows
+#        - Linux
+#        - Mac
 #    validations:
 #      required: false
-  
+
+## Screenshot
+#  - type: textarea
+#    id: bug-screenshot
+#    attributes:
+#      label: "Screenshots"
+#      description: If applicable, add screenshots to help explain your problem.
+#      value: |
+#        ![DESCRIPTION](LINK.png)
+#      render: bash
+#    validations:
+#      required: false
+
 # ## Error Logs
 #  - type: textarea
 #    id: bug-logs
