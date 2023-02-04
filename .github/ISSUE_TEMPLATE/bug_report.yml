@@ -20,14 +20,10 @@ body:
         Briefly describe the problem you are having.
       placeholder: |
         1. Problem
-        
         2. Current Beharior
-        
-        3. Expected Behavior
-        
+        3. Expected Behavior     
     validations:
-      required: false 
-                
+      required: false                
   
   ## Steps to Reproduce
   - type: textarea
@@ -49,6 +45,7 @@ body:
     attributes:
       label: Version
       description: Which version of the software was used?
+      placeholder: v1.0
     validations:
       required: false
   
@@ -66,7 +63,7 @@ body:
     validations:
       required: false
 
-## Screenshot
+  ## Screenshot
   - type: textarea
     id: bug-screenshot
     attributes:
@@ -78,7 +75,7 @@ body:
     validations:
       required: false
 
- ## Error Logs
+  ## Error Logs
   - type: textarea
     id: bug-logs
     attributes:
