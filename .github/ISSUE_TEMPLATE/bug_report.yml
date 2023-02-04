@@ -70,9 +70,9 @@ body:
       label: Components
       description: In which component did the error occure ? (check all that apply)
       options:
-       - label: "Component: Website"
-       - label: "Component: CLI"
-       - label: "Component: Test" 
+       - label: "Website"
+       - label: "CLI"
+       - label: "Test" 
    
   ## Screenshot
   - type: textarea
