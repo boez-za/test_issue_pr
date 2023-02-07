@@ -10,12 +10,6 @@ jobs:
   build-test:
     name: Run make ci-build in dev container
     uses: devcontainers/ci@v0.2
- Check failure on line 12 in .github/workflows/pr_auto.yaml
-
-GitHub Actions
-/ .github/workflows/pr_auto.yaml
-Invalid workflow file
-invalid value workflow reference: references to workflows must be rooted in '.github/workflows'
-    with:    
+  with:    
       push: never
       runCmd: echo "test"
